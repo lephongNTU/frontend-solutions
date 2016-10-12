@@ -7,9 +7,11 @@
  */
 
 exports.rank = function (grade) {
-  if (your_answer) {
+  if (grade < 60) //this logic return a boolean value
+  {
     return 'Average'
-  } else if (your_answer) {
+  } else if ( grade >= 60 && grade < 90) //this logic return a boolean value
+  {
     return 'Good'
   } else {
     return 'Excellent'
